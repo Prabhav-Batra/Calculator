@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        resultTextView = findViewById(R.id.resultTextView) // Make sure this ID matches your XML
-        previousCalculationTextView = findViewById(R.id.previousCalculationTextView) // Make sure this ID matches your XML
+        resultTextView = findViewById(R.id.resultTextView) 
+        previousCalculationTextView = findViewById(R.id.previousCalculationTextView) 
 
         val button0: Button = findViewById(R.id.btn0)
         val button1: Button = findViewById(R.id.btn1)
